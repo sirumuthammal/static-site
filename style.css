@@ -1,0 +1,39 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Style */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #74ebd5, #ACB6E5);
+    text-align: center;
+    padding: 50px;
+}
+
+/* Header */
+header {
+    margin-bottom: 40px;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Button */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
